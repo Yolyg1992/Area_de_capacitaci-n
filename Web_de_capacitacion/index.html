@@ -162,6 +162,77 @@
         </section>
     </main>
 
+<!-- Sección Recomendaciones y Quejas -->
+<section id="recomendaciones" class="section">
+    <div class="section-header">
+        <i class="fas fa-comments"></i>
+        <h2>Recomendaciones y Quejas</h2>
+    </div>
+    <div class="section-content">
+        <div class="form-container">
+            <form id="sugerenciasForm" class="sugerencias-form">
+                <div class="form-group">
+                    <label for="nombre"><i class="fas fa-user"></i> Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="tipo"><i class="fas fa-tag"></i> Tipo de Mensaje</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="recomendacion">Recomendación</option>
+                        <option value="queja">Queja</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="felicitacion">Felicitación</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="asunto"><i class="fas fa-pencil-alt"></i> Asunto</label>
+                    <input type="text" id="asunto" name="asunto" required placeholder="Breve descripción del asunto">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje"><i class="fas fa-edit"></i> Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Describe tu recomendación, queja o sugerencia en detalle..."></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn-enviar">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                    <button type="reset" class="btn-limpiar">
+                        <i class="fas fa-undo"></i> Limpiar Formulario
+                    </button>
+                </div>
+            </form>
+            
+            <div class="info-contacto">
+                <h3><i class="fas fa-info-circle"></i> Otras formas de contacto</h3>
+                <div class="contacto-items">
+                    <div class="contacto-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Teléfono: +1 (555) 123-4567</span>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: contacto@mujerpoderosa.com</span>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Horario: Lunes a Viernes 9:00 - 18:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2024 Mujer Poderosa - Capacitación Femenina. Todos los derechos reservados.</p>
