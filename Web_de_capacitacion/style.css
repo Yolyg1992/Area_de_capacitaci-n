@@ -13,11 +13,11 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     color: white;
     padding: 3rem 1rem;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
 .header-content {
@@ -73,7 +73,7 @@ body {
 }
 
 .navigation a:hover {
-    background: #ff6b6b;
+    background: #ccace5;
     color: white;
     transform: translateY(-2px);
 }
